@@ -1,0 +1,47 @@
+Package: luci-app-ssr-plus
+Version: 185
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, curl, xray-core
+Section: luci
+Architecture: all
+Installed-Size: 194495
+Filename: luci-app-ssr-plus_185_all.ipk
+Size: 194663
+SHA256sum: f5501cb073ca35ca67a69cdb175a3684137e13387dec29dda26f99489563f79c
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: git-22.154.44166-227f674
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 5470
+Filename: luci-i18n-ssr-plus-zh-cn_git-22.154.44166-227f674_all.ipk
+Size: 6304
+SHA256sum: 9b082d6daa41ff3b9b8fbbe908bd15aab0f2c0c0b3cfaf21b8b94bdbef47ca28
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5174
+Filename: microsocks_1.0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5979
+SHA256sum: 2f67bffa0b27fe21b171f1800dc04ab8e06905454ac059a76369a9c73f46137d
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3368
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4089
+SHA256sum: f16785c0ab556455e626ddae2397ac273e84f163061905c2f6babeee1ace5072
+Description:  tcping measures the latency of a tcp-connection
+
